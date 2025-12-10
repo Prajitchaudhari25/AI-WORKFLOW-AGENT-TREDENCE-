@@ -25,13 +25,18 @@ How to Run the Project (Step by Step)
 A)create graph
 Example Request
                {
+               
   "nodes": {
+  
     "check": "check_quality",
+    
     "improve": "improve_quality"
   },
   "edges": {
+  
     "check": "improve"
   },
+  
   "start_node": "check"
 }
 
@@ -39,23 +44,30 @@ Example Response
 
 {
   "graph_id": "generated-graph-id",
+  
   "message": "Graph created successfully"
 }
 
 B)RUN THE GRAPH
+
 Example Request
 
 {
   "graph_id": "PASTE_GRAPH_ID_HERE",
+  
   "initial_state": {
+  
     "quality_score": 50,
+    
     "threshold": 80
   }
 }
+
 Example Response
 
 {
   "final_node": "improve",
+  
   "final_quality": 60
 }
     
