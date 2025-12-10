@@ -8,11 +8,16 @@ This project is a simple workflow engine built using FastAPI where a workflow is
 How to Run the Project (Step by Step)
 
 1)Open the project folder in VS Code.
+
 2)Make sure Python is installed on your system.
+
 3)Install the required dependencies by running:
     pip install -r requirements.txt
+    
 4)Start the FastAPI server using Uvicorn:
     uvicorn app.main:app --reload
+    
 5)Open a web browser and go to:
     http://127.0.0.1:8000/docs
+    
 6)Use Swagger UI to first create a workflow using the /graph/create API and then run the workflow using the /graph/run API.
