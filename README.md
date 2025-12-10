@@ -27,13 +27,10 @@ Example Request
                {
                
   "nodes": {
-  
     "check": "check_quality",
-    
     "improve": "improve_quality"
   },
   "edges": {
-  
     "check": "improve"
   },
   
@@ -44,7 +41,7 @@ Example Response
 
 {
   "graph_id": "generated-graph-id",
-  
+
   "message": "Graph created successfully"
 }
 
@@ -56,9 +53,7 @@ Example Request
   "graph_id": "PASTE_GRAPH_ID_HERE",
   
   "initial_state": {
-  
-    "quality_score": 50,
-    
+    "quality_score": 50,  
     "threshold": 80
   }
 }
