@@ -22,7 +22,6 @@ How to Run the Project (Step by Step)
     this will take you to interactive swagger UI where you can test api usage.
     
 6)Use Swagger UI to first create a workflow using the /graph/create API and then run the workflow using the /graph/run API.
-A)create graph
 ## 🧪 Example API Usage
 
 ### A) Create Graph
