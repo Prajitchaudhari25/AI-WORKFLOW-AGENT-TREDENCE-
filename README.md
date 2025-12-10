@@ -23,9 +23,13 @@ How to Run the Project (Step by Step)
     
 6)Use Swagger UI to first create a workflow using the /graph/create API and then run the workflow using the /graph/run API.
 A)create graph
-Example Request
-               {
-               
+## 🧪 Example API Usage
+
+### A) Create Graph
+
+**Request**
+```json
+{
   "nodes": {
     "check": "check_quality",
     "improve": "improve_quality"
@@ -33,7 +37,6 @@ Example Request
   "edges": {
     "check": "improve"
   },
-  
   "start_node": "check"
 }
 
